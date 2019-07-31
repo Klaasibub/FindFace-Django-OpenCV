@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Тридиви</title>
+        <style type="text/css">
+            input {
+                width: 70px;
+                height: 70px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="/getResult" method="GET">
+            <input type="submit" name = "type" value = "json">
+            <input type="submit" name = "type" value = "image">
+        </form>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
