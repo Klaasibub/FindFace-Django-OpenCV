@@ -1,4 +1,4 @@
-Django==2.2.3
+Django==2.2.13
 numpy==1.17.0
 opencv-python==4.1.0.25
 pytz==2019.1
